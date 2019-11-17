@@ -8,6 +8,6 @@ This script was designed to work as a daemon that does following:
 
 **Steps to start the script**
 
-0. Add to your `.env` file values of APP_TOKEN (TG app token) and WEBHOOK
-1. docker build -t tg-adapter .
-2. docker run --env-file=.env --name tg-adapter -d tg-adapter:latest
+- Add to your `.env` file values of APP_TOKEN (TG app token) and WEBHOOK (url)
+- `docker build -t tg-adapter .`
+- `docker run --env-file=.env --name tg-adapter -d tg-adapter:latest`
